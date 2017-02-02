@@ -1,0 +1,19 @@
+{
+    "name": "rfussien/dotenv-benchmark",
+    "description": "Small benchmark of different ways to load a dotenv file",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Remi FUSSIEN",
+            "email": "remi.fussien@elbee.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "josegonzalez/dotenv": "@stable",
+        "vlucas/phpdotenv": "@stable",
+        "rfussien/dotenv": "@stable",
+        "symfony/dotenv": "^3.3@dev"
+    }
+}
