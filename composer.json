@@ -14,6 +14,10 @@
         "josegonzalez/dotenv": "@stable",
         "vlucas/phpdotenv": "@stable",
         "rfussien/dotenv": "@stable",
-        "symfony/dotenv": "^3.3@dev"
+        "symfony/dotenv": "^3.3@dev",
+        "phpbench/phpbench": "@dev"
+    },
+    "scripts": {
+        "bench": "vendor/bin/phpbench run DotenvBench.php --report=default"
     }
 }
