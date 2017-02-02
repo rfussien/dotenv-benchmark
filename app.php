@@ -3,7 +3,6 @@
 require 'vendor/autoload.php';
 
 $nbIterations = 10000;
-$time_result  = [];
 
 $loaders = array(
     'josegonzalez' => function () {
