@@ -11,10 +11,10 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "josegonzalez/dotenv": "@stable",
-        "vlucas/phpdotenv": "@stable",
-        "rfussien/dotenv": "@stable",
-        "symfony/dotenv": "^3.3@dev",
+        "josegonzalez/dotenv": "@dev",
+        "vlucas/phpdotenv": "@dev",
+        "rfussien/dotenv": "@dev",
+        "symfony/dotenv": "@dev",
         "phpbench/phpbench": "@dev"
     },
     "scripts": {
