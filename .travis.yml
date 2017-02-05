@@ -18,4 +18,4 @@ before_script:
   - travis_retry composer update ${COMPOSER_FLAGS} --no-interaction --prefer-dist
 
 script:
-  - vendor/bin/phpbench run DotenvBench.php --report=default --revs=10000
+  - vendor/bin/phpbench run DotenvBench.php --report=default --revs=1000
