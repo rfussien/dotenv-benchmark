@@ -1,0 +1,21 @@
+language: php
+
+php:
+  - 5.6
+  - 7.0
+  - 7.1
+
+# This triggers builds to run on the new TravisCI infrastructure.
+# See: http://docs.travis-ci.com/user/workers/container-based-infrastructure/
+sudo: false
+
+## Cache composer
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+before_script:
+  - travis_retry composer update ${COMPOSER_FLAGS} --no-interaction --prefer-dist
+
+script:
+  - vendor/bin/phpbench run DotenvBench.php --report=default --revs=10000
